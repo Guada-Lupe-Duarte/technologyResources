@@ -1,12 +1,11 @@
 # Análisis funcional
 
-Referencia: VictorC
-
 1. Tomar requerimientos
-2. Impact Maping
-3. user story maping
-4. Casos de uso
-5. user story + casos de aceptación
+2. Flowchart
+3. Impact Maping
+4. user story maping
+5. Casos de uso
+6. user story + casos de aceptación
 
 Luego pasamos a la etapa de:
 
@@ -15,21 +14,26 @@ Luego pasamos a la etapa de:
 3. Product Backlog
 4. Planing
 
-**Apunte:**  [link] https://www.youtube.com/watch?v=MRCnLtxwHOc&t=6329s
+**Referencia 1**  [link] https://www.youtube.com/watch?v=MRCnLtxwHOc&t=6329s
 
-**Apunte de** [link] https://www.youtube.com/watch?v=cqhtcY9CbUE
+**Referencia 2** [link] https://www.youtube.com/watch?v=cqhtcY9CbUE
 
 1. **Toma de requisitos:** con el cliente, otras áreas. Momento clave para entender qué quiere el cliente y juntar toda la información útil, despejar dudas. Recopilar toda la información posible, en notas, etc.
 Este documento debe ser firmado por el cliente para que luego no haya malos entendidos y todo quede validado y documentado. No pueden quedar cosas en el aire. “Esto es lo que entra, en estos plazos. Esto otro no”.
+<Modelo de requisitos: listar todos los requisitos que hemos recopilado de la reunión. 
+Detallar: 
+- título, 
+- prioridad, 
+- descripción
+- acciones iniciadoras
+- comportamiento esperado
+- requerimientos funcionales
+- caso de error
+- requerimientos no funcionales>
 
-2. **Modelo de requisitos**: redactar en puntos todos los requisitos que hemos recopilado de la reunión. También se definen los roles de la app. Definir requisitos funcionales según el rol. Ej: tendremos rol admin, rol operador y rol cliente. Rol cliente tiene que poder loguearse. Rol cliente tiene que poder seleccionar un producto y luego ir al carrito, etc, (definir todo lo que el cliente puede hacer dentro de la aplicación).
-Se escribe de manera sencilla, sin entrar en niveles técnicos.
+1. **Flowchart:** a partir del detalle de los requerimientos, armar el diagrama nos permite visualizar en plano general y evitar cuellos de botella.[link] /technologyResources/Análisis funcional/Flowchart.markdown 
 
-También hay que describir los requisitos no funcionales: tienen que ver con cosas técnicas, por ejemplo el tiempo de resupesta máximo que puede tener. Ej: Si un usuario manda un mensaje a un chat tiene que mostrarse a tiempo real no puede tardar 1 min // El servicio tiene que estar disponible 24 hr al día.
-
-Una vez que tenemos todos los requisitos bien escritos y detallados, es cuando podemos definir cada una de esas funcionalidad y pasamos a crear los Casos de uso.
-
-3. **Casos de uso**: en este punto sí entramos en las funcionalidades, vamos a escribir que implica cada una de esas funcionalidades y lo hacemos a detalle, es decir, teniendo en cuenta todas las posibilidades para evitar problemas a futuro por no haber pensado en alguna de ella. 
+2. **Casos de uso**: en este punto sí entramos en las funcionalidades, vamos a escribir que implica cada una de esas funcionalidades y lo hacemos a detalle, es decir, teniendo en cuenta todas las posibilidades para evitar problemas a futuro por no haber pensado en alguna de ella. 
 
 Ej login: usuario entra a la agina de loginy encuentra un campo de usuario, un campo de contraseña, un campo de mantener la sesión iniciada o recordarme y un botón.   
 

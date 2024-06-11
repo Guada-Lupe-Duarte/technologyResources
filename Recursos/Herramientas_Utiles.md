@@ -6,6 +6,12 @@
 
 # Postman
 
+> Sitio oficial: https://www.postman.com/product/what-is-postman/ 
+
+Postman es una plataforma API para crear y utilizar API. Postman simplifica cada paso del ciclo de vida de la API y agiliza la colaboración para que puedas crear mejores API y más rápido.
+
+Lo solemos utilizar para probar las distintas peticiones de cada proyecto.
+
 # Git
 
 # Zitadel
@@ -40,4 +46,3 @@ Un tipo de base de datos no relacional (una base de datos de objetos) usa la pro
 - **Escalado vertical,** proceso de agregar recursos, puede ser memoria o cpu para que se adapten al servidor actual.
 
 - **Escalado horizontal** agrega más máquinas al grupo de recursos. Amplia el ciclo de vida del hardware actual, permite actualizar los recursos sin depender de un proveedor, reduce los costos y lo potencia en flexibilidad a largo plazo.
-
